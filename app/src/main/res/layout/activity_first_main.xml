@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/empty"
+    >
+
+
+        <Button
+            android:background="@drawable/mymovies"
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:textStyle="italic"
+            android:textSize="45dp"
+            android:text="My Movies"
+            android:textColor="@color/colorWhite"
+            android:id="@+id/mymovies"
+
+            />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginLeft="120dp"
+        android:text="My Profile"
+        android:textSize="25dp"
+        android:id="@+id/buttonmyprofile"
+        />
+
+    <RelativeLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+          <Button
+        android:background="@drawable/about"
+        android:id="@+id/about"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="200dp"
+        android:text="" />
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="200dp"
+        android:background="@drawable/lgout"
+        android:text="" />
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/back1"
+        android:orientation="vertical"
+        android:weightSum="15"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1">
+
+
+
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="29dp"
+            android:layout_marginTop="190dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Enter your Name"
+            android:textColor="@color/colorWhite"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <EditText
+            android:textAlignment="center"
+            android:id="@+id/LogInName"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="22dp"
+            android:layout_weight="1"
+            android:background="@drawable/textbox1"
+            android:textColor="@color/colorWhite"
+            android:textSize="20dp" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Enter your password"
+            android:textColor="@color/colorWhite"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <EditText
+            android:background="@drawable/textbox1"
+            android:textColor="@color/colorWhite"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:id="@+id/LogInpass"
+            android:layout_width="match_parent"
+            android:layout_height="22dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="22dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:background="@drawable/login"
+            android:id="@+id/LogInNow"
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:text=""
+
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="22dp"
+            android:layout_marginTop="50dp"
+            android:layout_weight="2"
+
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginTop="1dp"
+                android:text="      New User"
+                android:textSize="25dp"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold"
+
+                />
+
+            <Button
+                android:background="@drawable/signup"
+                android:id="@+id/goregs"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="200dp"
+                android:text="" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
